@@ -47,7 +47,7 @@ form section.username section.input input{
     padding: 10px;
     border-radius: 6px;
 }
-form button{
+form .submit{
     width: 300px;
     text-align: center;
     border-radius: 20px;

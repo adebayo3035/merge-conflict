@@ -6,7 +6,57 @@
 body{
     font-family: sans-serif;
     background: rgb(251,63,209);
-background: linear-gradient(90deg, rgba(251,63,209,1) 0%, rgba(99,83,152,0.6867121848739496) 100%);
+    background: linear-gradient(90deg, rgba(251,63,209,1) 0%, rgba(99,83,152,0.6867121848739496) 100%);
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
-.container{
+form{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    
+    padding: 50px;
+    border-radius: 8px;
+}
+form h2{
+    padding:20px;
+    font-size: 30px;
+}
+form section.username{
+    margin: 3%;
+}
+form section.username label{
+    font-size: 12px;
+}
+form section.username section.input{
+    display: flex;
+    justify-content: space-between;  
+}
+form section.username section.input i{
+    font-size: 18px;
+    padding: 10px;
+}
+form section.username section.input input{
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid wheat;
+    padding: 10px;
+    border-radius: 6px;
+}
+form button{
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    font-weight: 900;
+    color: #fff;
+    padding: 10px;
+    background-image: linear-gradient(to right top, #4315eb, #8500e4, #af00dd, #d000d6, #eb12cf);
+    cursor: pointer;
+    
 }
